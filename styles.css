@@ -1,0 +1,80 @@
+.fondo {
+  background-image: url(https://png.pngtree.com/background/20210717/original/pngtree-cute-love-heart-background-picture-image_1433196.jpg);
+  width: 100vw; /* Ocupa todo el ancho de la pantalla */
+  height: 100vh;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.peticion {
+  font-size: 30px;
+  color: rgb(119, 7, 7);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.gif-amor {
+  background-image: url(https://i.pinimg.com/originals/ca/5f/3f/ca5f3fce74b4e68009219a971eb91bac.gif);
+  height: 300px;
+  width: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gif2 {
+  background-image: url(https://i.pinimg.com/originals/4d/67/84/4d6784bcad9589f99efd63f9474f841b.gif);
+  height: 300px;
+  width: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cuadro-botones {
+  margin-top: 50px;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 20px;
+}
+
+.boton-si {
+  border-radius: 5px;
+  border: 0;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(131, 228, 131);
+  color: black;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.boton-si:hover {
+  transition: background-color 0.3s ease;
+  background-color: rgb(93, 148, 11);
+}
+
+.boton-no:hover {
+  transition: background-color 0.3s ease;
+  background-color: rgb(206, 85, 85);
+}
+
+.boton-no {
+  border-radius: 5px;
+  border: 0;
+  align-content: center;
+  height: 100px;
+  width: 250px;
+  background-color: rgb(120, 12, 12);
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+}
